@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+.navigation img{
+    padding-left:100px;
+    position: relative;
+    top:10px;
+}
+.name h3{
+    position:relative;
+    top:-2.5px;
+}
+.navigation span {
+    font-size: small;
+    padding-left:100px;
+}
+.name{
+    display:grid;
+    grid-template-columns: repeat(2,200px);
+    margin-top: 20px;
+    margin-left:40px;
+    width:400px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    font-weight:600;
+    position:relative;
+    top:-16px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    margin-right:20px;
+}
+.Selectors{
+    display: flex;
+    margin-top:124px;
+    margin-left:200px;
+    margin-bottom:38px;
+}
+.Selectors span{
+    padding-right:100px;
+}
+.content2{
+    height:378px;
+    position: relative;
+    width:100%;
+    overflow: hidden;
+}
+.image{
+    display: flex;
+    width:calc(600px * 10);
+    animation: scroll 30s linear infinite;
+}
+.slide{
+    width:600px;
+    display: flex;
+    align-items: center;
+    padding:15px;
+}
+.slide img{
+    width:100%;
+    height:330px;
+}
+.whereabout{
+    margin-top: 40px;
+    width: 100%;
+}
+.whereabout-image{
+    position: relative;
+    left:300px;
+    width:80%;
+}
+
+.whereabout-text{
+    position: relative;
+    top:-50px;
+    left:500px;
+    opacity:0.5;
+    width:50%;
+}
+.whereabout-rating{
+   position: relative; 
+   top:-70px;
+   left:310px;
+   width:50%;
+}
+.media{
+    margin-left:40px;
+    display: grid;
+    grid-template-columns: repeat(3,70px);
+}
+.copyright{
+    position: relative;
+    float: right;
+    top:-20px;
+    right:25px;
+}
+@keyframes scroll {
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-600px*5));
+    }
+   
+}
