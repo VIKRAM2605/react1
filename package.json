@@ -1,14 +1,14 @@
 {
-  "homepage": "https://VIKRAM2605/github/io/react1",
+  "homepage": "https://VIKRAM2605.github.io/react1/",
   "name": "reacttask1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
-    "build": "vite build",
+    "predeploy" : "npm run build",
+"deploy" : "gh-pages -d build",
+    "build": "vite dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
